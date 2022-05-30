@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+    background-color: #a30109;
+    box-sizing: border-box;
+}
+
+.area {
+    width: 100%;
+    padding: 0px 20px 50px 20px;
+    box-sizing: border-box;
+}
+

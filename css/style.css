@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
 }
+.topo {
+    background: #cf010b;
+    text-align: center;
+    height: 48px;
+}
 
-img {
+.main {
     width: 100%;
-    padding: 20px;
-    background-color: #a30109;
-    box-sizing: border-box;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .area {
@@ -16,3 +20,58 @@ img {
     box-sizing: border-box;
 }
 
+.area h2, .area h3, .area p {
+    padding: 0 12px;
+}
+
+.area p {
+    line-height: 25px;
+    margin: 12px 0px;
+}
+
+.area h2 {
+    margin: 15px 0;
+}
+
+.area h3 {
+    margin: 12px 0;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+    background-color: #a30109;
+    box-sizing: border-box;
+}
+
+.links li {
+    display: inline;
+    padding: 0 12px;
+}
+
+.links li a {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.links {
+    padding: 14px 0;
+}
+
+#contact ul {
+    margin: 0 12px;
+}
+
+#contact ul, #contact ul li {
+    display: inline;
+}
+
+#contact ul li a {
+    background-color: #cf010b;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#contact p {
+    height: 40px;
+}
